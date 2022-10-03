@@ -4,6 +4,7 @@ export const COLORS = {
 
   white: "#FFF",
   gray: "#74858C",
+  skyblue: '#add8e6'
 };
 
 export const SIZES = {
