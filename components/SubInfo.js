@@ -4,7 +4,7 @@ import React from 'react'
 const SubInfo = () => {
   return (
     <View>
-      <Text>SubInfo</Text>
+      <Text>SubInfo</Text> 
     </View>
   )
 }
