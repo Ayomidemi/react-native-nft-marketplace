@@ -17,16 +17,11 @@ const NavBar = ({ onSearch }) => {
           alignItems: "center",
         }}
       >
-        <Text
-          style={{
-            fontFamily: FONTS.bold,
-            fontSize: SIZES.extraLarge,
-            color: COLORS.skyblue,
-            marginTop: SIZES.base / 2,
-          }}
-        >
-          DamiisDandy
-        </Text>
+        <Image
+          source={assets.logo}
+          resizeMode="contain"
+          style={{ width: 90, height: 25 }}
+        />
 
         <View style={{ width: 45, height: 45 }}>
           <Image
